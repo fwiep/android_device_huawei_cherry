@@ -16,8 +16,8 @@
 $(call inherit-product-if-exists, vendor/huawei/y550/y550-vendor.mk)
 
 # NFC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/nfc-nci.conf:system/etc/nfc-nci.conf \
-    $(LOCAL_PATH)/releasetools/device_check.sh:install/bin/device_check.sh
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/nfc-nci.conf:system/etc/nfc-nci.conf \
+#    $(LOCAL_PATH)/releasetools/device_check.sh:install/bin/device_check.sh
 
 $(call inherit-product, device/huawei/msm8916-common/msm8916.mk)
