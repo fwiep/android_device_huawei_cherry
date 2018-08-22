@@ -29,4 +29,4 @@ TARGET_OTA_ASSERT_DEVICE := Y550-L01,Y550-L02,Y550-L03
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # inherit from the proprietary version
--include vendor/huawei/cherry/BoardConfigVendor.mk
+-include vendor/huawei/y550/BoardConfigVendor.mk
