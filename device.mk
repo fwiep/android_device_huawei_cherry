@@ -20,8 +20,8 @@ $(call inherit-product, vendor/huawei/y550/y550-vendor.mk)
 #PRODUCT_PACKAGES += \
 #    android.hardware.nfc@1.0-impl-qc199x
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/nfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc-nci.conf \
-    $(LOCAL_PATH)/releasetools/device_check.sh:install/bin/device_check.sh
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/configs/nfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc-nci.conf \
+#    $(LOCAL_PATH)/releasetools/device_check.sh:install/bin/device_check.sh
 
 $(call inherit-product, device/huawei/msm8916-common/msm8916.mk)
